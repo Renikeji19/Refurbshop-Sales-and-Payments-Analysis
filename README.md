@@ -97,6 +97,7 @@ Merchant 474562 consistently achieved the highest sales figures in each country,
    
 ![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/02a521b2-fa4e-497b-99c0-48a5116893e2)
 
+Apple is the dominant brand in the refurbished electronics marketplace on Backmarket, with total sales of 25.60 million Euros. This indicates strong consumer demand and preference for refurbished Apple products.
 
 ##### Tableau Dashboard
 
@@ -106,8 +107,6 @@ Merchant 474562 consistently achieved the highest sales figures in each country,
 ### 6. Recommendations
 
 #### Payment Failures
-.
-Investigating the underlying causes of these failures (e.g., technical issues, payment method problems) can help in improving the payment success rate and enhancing customer satisfaction.
 
 Investigate and Address Issues: It's crucial to investigate the underlying reasons for the high failure rates in payment methods like oney12x, klarna_s, and others to improve their reliability.
 
@@ -117,7 +116,14 @@ User Support and Education: Providing better support and clear instructions for 
 
 By focusing on improving the reliability of high-failure payment methods and promoting the use of more reliable ones, overall payment success rates can be enhanced, leading to better customer satisfaction and potentially higher sales.
 
+#### Merchants
+
 Understanding what drives the success of the top-performing merchants could provide valuable insights for other merchants looking to improve their sales performance. This could involve analyzing marketing strategies, customer engagement practices, product offerings, and pricing strategies.
+
+#### Brands
+
+- Encourage positive customer reviews and ratings to build trust and credibility in the refurbished products sold on Backmarket.
+- Merchants need to Work closely with Refurbshop to ensure high standards of refurbishment and customer service, enhancing overall customer satisfaction and loyalty.
 
 
 
