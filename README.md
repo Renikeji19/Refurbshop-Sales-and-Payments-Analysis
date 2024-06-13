@@ -66,66 +66,58 @@ The date and time of first and last failed payment intentions provide insight in
 
 ![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/a12efcfa-7b85-4215-88d2-7e198066b086)
 
+- Consistent Top Performers:
 
+The merchants 474562, 90760985794, 33230963385, 31315447818, and 13312053010 consistently rank among the top 5 in total sales across all three countries: Germany, Spain, and France. This indicates strong and consistent performance across multiple regions.
+
+- High Sales Figures:
+
+Merchant 474562 consistently achieved the highest sales figures in each country, with a significant lead over other merchants, highlighting their strong market presence and successful sales strategies.
+
+
+#### Tableau Analysis
+
+1. What is the failure rate for each payment method on the platform?
+
+![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/7cd265c0-2aa3-4f78-82fa-8a86696b0204)
+
+- Payment Methods with High Failure Rates: The methods like oney12x, klarna_s, oney4x, giropay, oney3x, and klarna_p exhibit extremely high failure rates, suggesting potential issues that may need addressing such as technical difficulties, user error, or other barriers preventing successful transactions.
+
+- Reliability of Traditional Methods: Traditional methods like card payments and PayPal have significantly lower failure rates, indicating higher reliability and possibly better user experience or better-established infrastructure.
+
+2. Timeseries of Failure Rate
+
+![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/490da491-a05f-48d4-89a7-e08528e5c3ca)
+
+- Fluctuating Failures: The number of failed payment attempts does not show a consistent upward or downward trend but fluctuates daily.
+- Spike on November 5: There is a notable spike in payment failures on November 5, suggesting an issue that may have occurred on this specific day.
+- General Stability: Despite the fluctuations, the daily number of failed attempts remains within a relatively narrow range of 7.45K to 8.30K.
+
+3. What are the top selling electronic brands on the platform?
    
+![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/02a521b2-fa4e-497b-99c0-48a5116893e2)
 
-#### Tableau Dashboard
+
+##### Tableau Dashboard
+
 ![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/a61cf6e7-77a3-439f-8f1d-63acade86fa3)
 
 
-
-
-#### Monthly Sales and Order Quantities
-Product orders and sales is highest in the first quarter, particularly in March. The latter half of the year sees a continuous drop in performance, with the lowest point in December.
-This indicates that the store experiences strong seasonality, with significant peaks in early spring and notable declines towards the end of the year.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/608ff617-adac-43c3-a83b-b54eb98784ad)
-
-#### Most Common Categories of items
-The analysis of the "Category" column indicates that 'Set', 'Kurta', and 'Western Dress' are the most frequently appearing product categories.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/bb34f2ad-fb9b-4655-bdd1-8eb454ce109b)
-
-#### Delivery Insights and Order Status
-Items were predominantly delivered to major states such as Maharashtra, Karnataka, and Uttar Pradesh, with Maharashtra leading in sales volume.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/45629a48-84b0-4b23-b328-7ebfff600ee3)
-
-
-92% of orders wwere delivered, 3% orders returned, 2.7% cancelled and 1.67% orders refunded.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/01ddffaf-9dd0-413c-b3bb-8a2cee30286f)
-
-
-#### Sales Demographics
-The sales distribution by gender shows a higher purchasing trend among women (64%) compared to men (36%). 
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/0e1b5488-d8e7-4b63-8234-54a331381420)
-
-
-For both genders, adult customers constitute the majority of the store's clientele.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/21519aaf-fbf4-4bb8-9b66-1fc143d9bc1c)
-
-
-#### Channel Analysis
-Amazon, Myntra and Flipkart emerge as the leading channels for sales, suggesting a strong online consumer preference.
-
-![image](https://github.com/Renikeji19/Vrinda-Store-Data-Analysis/assets/97131888/b361cef0-3f9d-4560-88e3-94eda4360153)
-
-
-### 5. Conclusion
-The analysis reveals that Vrinda Store has a strong market presence in major states with a diverse product range, predominantly purchased by adult women through major online platforms. 
-The seasonal spikes in sales and the high rate of successful deliveries are indicative of effective operational and logistical capabilities.
-
 ### 6. Recommendations
-- **Expand Product Range:** The store should increase inventory in high-demand categories such as 'Sets' and 'Kurta' during peak shopping seasons.
-- **Marketing Focus:** Marketing efforts should be targeted more towards men and the stores online presence on Amazon, Mynra and Flipkart should be enhanced to capitalize on these channels' strong performance.
-- **Customer Segmentation:** Targeted promotions and discounts should be developed for adult customers to maintain loyalty and increase customer lifetime value.
-Actionable Insights:
 
-Customers with high numbers of failed payment attempts and high failure rates may need targeted support or intervention to resolve payment issues.
+#### Payment Failures
+.
 Investigating the underlying causes of these failures (e.g., technical issues, payment method problems) can help in improving the payment success rate and enhancing customer satisfaction.
+
+Investigate and Address Issues: It's crucial to investigate the underlying reasons for the high failure rates in payment methods like oney12x, klarna_s, and others to improve their reliability.
+
+Promote Reliable Methods: Encourage customers to use more reliable methods like card payments and PayPal, especially if they are experiencing issues with other methods.
+
+User Support and Education: Providing better support and clear instructions for using the problematic payment methods may help in reducing the failure rates. Customers with high numbers of failed payment attempts and high failure rates may need targeted support or intervention to resolve payment issues
+
+By focusing on improving the reliability of high-failure payment methods and promoting the use of more reliable ones, overall payment success rates can be enhanced, leading to better customer satisfaction and potentially higher sales.
+
+Understanding what drives the success of the top-performing merchants could provide valuable insights for other merchants looking to improve their sales performance. This could involve analyzing marketing strategies, customer engagement practices, product offerings, and pricing strategies.
 
 
 
