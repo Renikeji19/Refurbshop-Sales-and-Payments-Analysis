@@ -41,6 +41,34 @@ The following steps were applied to clean the data for analysis:
 
 ### 4. Analysis and Findings
 
+#### SQL Analysis
+
+1. Which customers had repeated payment failures?
+
+![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/d531749e-de21-4ba6-82ea-5f7c04c1bfbf)
+
+The following observations can be made from the results:
+
+- Top Customers with Payment Failures:
+
+The customer with customer_id 488700216 had the highest number of failed payment intentions, totaling 7 failed attempts, with the first failure recorded on 11/2/20 at 8:49 PM and the last on 11/6/20 at 8:22 PM. This customer also had a total of 25 payment attempts, indicating persistent payment issues. 
+
+- Total Payment Attempts vs. Failed Attempts:
+
+The ratio of total payment attempts to failed attempts varies among customers. For instance, Customer_id 499251648 had 4 failed attempts out of 5 total payment attempts, suggesting a high failure rate.
+Conversely, Customer_id 75335916 had 3 failed attempts out of 28 total payment attempts, indicating a lower failure rate but still highlighting multiple failures.
+
+- First and Last Failure Dates:
+
+The date and time of first and last failed payment intentions provide insight into the frequency and duration of payment issues. For example, Customer_id 40934592 had the first failed attempt on 11/3/20 at 8:57 AM and the last on 11/6/20 at 7:07 PM, showing a span of repeated issues over 3 days. This is indicative of potential systemic issues or customer-specific payment problems that need further investigation.
+
+2. Who are the top 5 merchants with the biggest sales (in €) per country?
+
+![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/a12efcfa-7b85-4215-88d2-7e198066b086)
+
+
+   
+
 #### Tableau Dashboard
 ![image](https://github.com/Renikeji19/Refurbshop-Sales-and-Payments-Analysis/assets/97131888/a61cf6e7-77a3-439f-8f1d-63acade86fa3)
 
@@ -94,7 +122,10 @@ The seasonal spikes in sales and the high rate of successful deliveries are indi
 - **Expand Product Range:** The store should increase inventory in high-demand categories such as 'Sets' and 'Kurta' during peak shopping seasons.
 - **Marketing Focus:** Marketing efforts should be targeted more towards men and the stores online presence on Amazon, Mynra and Flipkart should be enhanced to capitalize on these channels' strong performance.
 - **Customer Segmentation:** Targeted promotions and discounts should be developed for adult customers to maintain loyalty and increase customer lifetime value.
+Actionable Insights:
 
+Customers with high numbers of failed payment attempts and high failure rates may need targeted support or intervention to resolve payment issues.
+Investigating the underlying causes of these failures (e.g., technical issues, payment method problems) can help in improving the payment success rate and enhancing customer satisfaction.
 
 
 
